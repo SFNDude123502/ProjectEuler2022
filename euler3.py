@@ -1,10 +1,5 @@
-ints=600851475143
-lis=[]
-inti=ints
-while inti!=1:
-    for i in range(ints-1,1,-1):
-        if ints%i==0:
-            lis.append(i)
-            inti/=i
-            break
-print(lis)
+import funcs as f
+for i in range(2,int(600851475143**.5)+1):
+    if 600851475143%i==0:
+        if f.isPrime(i):
+            print(i)
