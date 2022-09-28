@@ -2,7 +2,7 @@ u="73167176531330624919225119674426574742355349194934969835203127745063262395783
 lrgnum=0
 for i in range(0,980):
     temp=1
-    if u[i:i+12:1]==0:
+    if u[i:i+12]==0:
         continue
     for j in range(13):
         temp*=int(u[i+j])
