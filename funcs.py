@@ -44,3 +44,6 @@ def primeFactorization(nu):
   if nu>2:
     _facts.append(nu)
   return _facts
+
+def callTheFireDepartment(weJustNukedTheBuilding):
+    print("weJustNukedTheBuilding")
